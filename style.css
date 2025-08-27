@@ -1,0 +1,31 @@
+.root-div {
+    background-color: rgb(229 231 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.discount {
+    color: rgb(185 28 28);
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-left: 1rem;
+}
+
+.help-contact{
+margin: 0;
+font-size: bold;
+line-height: 1.5rem;
+font-weight: 600;
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.help-contact a {
+text-decoration: none;
+margin: 0;
+color: black;
+}
