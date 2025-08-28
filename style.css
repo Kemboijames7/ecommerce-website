@@ -1,3 +1,7 @@
+p, span, button, ul, li, a {
+    font-family: "Open Sans", sans-serif;
+}
+
 .root-div {
     background-color: rgb(229 231 235);
     display: flex;
@@ -16,7 +20,6 @@
 
 .help-contact{
 margin: 0;
-font-size: bold;
 line-height: 1.5rem;
 font-weight: 600;
 display: flex;
@@ -28,4 +31,47 @@ gap: 1rem;
 text-decoration: none;
 margin: 0;
 color: black;
+}
+
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.nav-link {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-link span a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+}
+.sign-register {
+    display: flex;
+    justify-content: space-between;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin: 1.5rem;
+
+}
+
+.sign-register .in-register{
+    padding-right: 1.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+}
+
+
+.sign-register a {
+    font-weight: 600;
+    color: rgb(5 150 105);
 }
