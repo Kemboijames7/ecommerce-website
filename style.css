@@ -111,3 +111,18 @@ align-items: center;
     line-height: 1rem;
     font-weight: 600;
 }
+
+.section-main-one{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-section{
+    display: flex;
+}
+.hero-section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
